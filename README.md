@@ -24,6 +24,7 @@
 
   
 
+
   **小功能**
 
   - 快速场景切换 - ScenesMenuBuild
@@ -34,6 +35,7 @@
 
     
 
+
   **配备插件**
 
   - 快速Shared切换 [AllIn1SpriteShader]
@@ -43,5 +45,8 @@
   - ProtoBuf 一种高效的数据传输模式
 
   - LitJson Json解析插件
+    
+ ![emoji1](..\MD\emoji1.jpg)
+
 
     
