@@ -56,165 +56,165 @@
     <Analyzer Include="D:\SoftWare\Visul Studio2019\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Frame\Common\Game\Managers\ShopManger.cs" />
-    <Compile Include="Assets\Scripts\Frame\Utils\TestUi.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\Math\FixedPoint\VLine.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\Queue\IndexedPriorityQueue.cs" />
     <Compile Include="Assets\Scripts\Frame\Common\AIState\UnitAI.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\SaveGameData\GameDataManager.cs" />
-    <Compile Include="Assets\Scripts\Frame\Utils\GameUtilsEx.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\Utils\Prim.cs" />
     <Compile Include="Assets\Scripts\Frame\Common\SaveGameData\DBMgr.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\Structures\IDestroy.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\Utils\Dijkstra.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\ResourceLoad\ResourceManager.cs" />
-    <Compile Include="Assets\Scripts\Frame\Tool\IHouse.cs" />
-    <Compile Include="Assets\Scripts\Frame\Game\Configs\Base\BaseLetterData.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\FakeLight.cs" />
-    <Compile Include="Assets\Scripts\Frame\Utils\DebugEX.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Game\Managers\Atlas\Atlas.cs" />
-    <Compile Include="Assets\Scripts\Frame\Game\Configs\Base\BaseResData.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Msg\MsgManager.cs" />
-    <Compile Include="Assets\Scripts\Frame\Tool\INPC.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Game\Utils\Materials.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\Structures\ILoader.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Pool\InitPool.cs" />
-    <Compile Include="Assets\Scripts\Frame\Game\Configs\Types\ResType\LabelItemCfg.cs" />
-    <Compile Include="Assets\Scripts\Frame\Game\Configs\Types\ResType\SwitchLetterCfg.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\UIBase\UIUtils.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\Math\FixedPoint\IntMath.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\SparseGraph.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\Math\FixedPoint\VFactor.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\AIState\AIStateBase.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\AIState\AIStateSearch.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Manager\Singleton.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Msg\MsgDefine.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Game\Managers\UIManager.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\Aspect Container\Container.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Demigiant\DOTweenPro\DOTweenProShortcuts.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Other\Fog\MinValueAttribute\MinValueAttribute.cs" />
     <Compile Include="Assets\Scripts\Frame\Common\Manager\BulletTimeManager.cs" />
     <Compile Include="Assets\Scripts\Frame\Common\Game\BaseGridHandler.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\Aspect Container\Aspect.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\Math\FixedPoint\VInt.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\AIState\AIStateAction.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Manager\IManager.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\Math\FixedPoint\Atan2LookupTable.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\UIBase\TipMessageUI.cs" />
-    <Compile Include="Assets\Scripts\Frame\Utils\MathG.cs" />
-    <Compile Include="Assets\Scripts\Frame\Game\Configs\Types\ResType\ItemCfg.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Demigiant\DOTweenPro\DOTweenTextMeshPro.cs" />
     <Compile Include="Assets\Scripts\Frame\Game\Configs\Base\ResourceInitUtil.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\Math\FixedPoint\VRect.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\UIBase\UIToggleView.cs" />
-    <Compile Include="Assets\Scripts\Frame\Game\Configs\Types\ResType\LetterTaskCfg.cs" />
-    <Compile Include="Assets\Scripts\Frame\Utils\FPSGUI.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\AIState\AIStateChase.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\Queue\PriorityQueue.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\Structures\IStart.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\GameBase.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\IGraph.cs" />
-    <Compile Include="Assets\Scripts\Frame\Game\Configs\Types\ResType\ChatCfg.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\AIState\MonsterAI.cs" />
-    <Compile Include="Assets\Scripts\Frame\Game\Configs\Types\ResType\LetterItemDataCfg.cs" />
     <Compile Include="Assets\Scripts\Frame\Common\UIBase\UIModelBG.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\Utils\AStar.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\Utils\CostTable.cs" />
-    <Compile Include="Assets\Scripts\Frame\Tool\Singletons\MMPersistentSingleton.cs" />
-    <Compile Include="Assets\Scripts\Frame\Game\Configs\Base\BaseLineData.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\Structures\ILogin.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\Math\FixedPoint\VInt2.cs" />
-    <Compile Include="Assets\Scripts\Frame\Game\Configs\Types\ResType\ChatOtherCfg.cs" />
-    <Compile Include="Assets\Scripts\Frame\Tool\GameObjectUtils.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\NavGraphNode.cs" />
-    <Compile Include="Assets\Scripts\Frame\Game\Configs\Types\ResType\ChatTaskCfg.cs" />
-    <Compile Include="Assets\Scripts\Frame\Game\Configs\Types\ResType\LoadCfg.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\AIState\AIStateIdle.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\UIBase\UIBase.cs" />
-    <Compile Include="Assets\Scripts\Frame\Game\Configs\Types\ResType\ItemTaskCfg.cs" />
-    <Compile Include="Assets\Scripts\Frame\Tool\Singletons\MMPersistentHumbleSingleton.cs" />
-    <Compile Include="Assets\Scripts\Frame\Utils\CommonMethod.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Game\Utils\Md5Utils.cs" />
     <Compile Include="Assets\Scripts\Frame\Common\Game\Utils\FixedParameter.cs" />
+    <Compile Include="Assets\Scripts\Frame\Tool\EXTool.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Msg\MsgManager.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Other\Fog\AreaLight\Scripts\AreaLightLUT.GGX.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Manager\IManager.cs" />
+    <Compile Include="Assets\Scripts\Frame\Utils\FPSGUI.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\GraphEdge.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\AIState\MonsterAI.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Other\Fog\AreaLight\Scripts\AreaLight.Direct.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\Utils\Prim.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\AIState\AIStateAction.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\Math\FixedPoint\VInt.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Unity-Logs-Viewer\Reporter\Reporter.cs" />
+    <Compile Include="Assets\Scripts\Frame\Utils\FPSUI.cs" />
+    <Compile Include="Assets\Scripts\Frame\Game\Configs\Base\BaseLetterData.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\Math\FixedPoint\VFactor.cs" />
+    <Compile Include="Assets\Scripts\Frame\Game\Configs\Types\ResType\CgCfg.cs" />
+    <Compile Include="Assets\Scripts\Frame\Utils\TestUi.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Other\Fog\AreaLight\Scripts\AreaLightLUT.DisneyDiffuse.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\Structures\IDestroy.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\Structures\ILoader.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\Math\FixedPoint\VRect.cs" />
+    <Compile Include="Assets\Scripts\Frame\Game\Configs\Types\ResType\ChatOtherCfg.cs" />
+    <Compile Include="Assets\Scripts\Frame\Utils\DebugUI.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\ResourceLoad\ConfigManager.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+    <Compile Include="Assets\Scripts\Frame\Game\Configs\Types\ResType\SwitchLetterCfg.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Demigiant\DOTweenPro\DOTweenTk2d.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\Structures\IStart.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Other\Fog\Wind\Scripts\Wind.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\IGraph.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\Structures\ILogin.cs" />
+    <Compile Include="Assets\Scripts\Frame\Tool\IItem.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Game\Utils\CameraRoot.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\ResourceLoad\ResourceManager.cs" />
+    <Compile Include="Assets\Scripts\Frame\Utils\MathG.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\UIBase\UIToggleView.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\AIState\AIStateChase.cs" />
+    <Compile Include="Assets\Scripts\Frame\Game\Configs\Base\BaseUserType.cs" />
+    <Compile Include="Assets\Scripts\Plugs\AllIn1SpriteShader\Scripts\AllIn1Shader.cs" />
+    <Compile Include="Assets\Scripts\Frame\Game\Configs\Types\ResType\ChatTaskCfg.cs" />
+    <Compile Include="Assets\Scripts\Frame\Game\Configs\Types\ResType\ClueItemCfg.cs" />
+    <Compile Include="Assets\Scripts\Frame\Game\Configs\Types\ResType\LetterItemDataCfg.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\UIBase\UIBase.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Demigiant\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\Math\FixedPoint\VInt3.cs" />
+    <Compile Include="Assets\Scripts\Frame\Utils\GameUtilsEx.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\Math\FixedPoint\IntMath.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\GameBase.cs" />
     <Compile Include="Assets\Scripts\Frame\Common\Graph\DigraphGraph.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Pool\PoolData.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\Utils\Search.cs" />
+    <Compile Include="Assets\Scripts\Frame\Utils\ToolEx.cs" />
+    <Compile Include="Assets\Scripts\Frame\Game\Configs\Types\ResType\FirstLineCfg.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Manager\Singleton.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Game\Managers\UIManager.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Other\Fog\AreaLight\Scripts\AreaLight.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Demigiant\DOTweenPro\DOTweenDeAudio.cs" />
+    <Compile Include="Assets\Scripts\Frame\Game\Configs\Types\ResType\ChatCfg.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Other\Fog\AreaLight\Scripts\AreaLight.Shadow.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Game\Managers\Res\ResConst.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\SaveGameData\DBClass.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Other\Fog\LightManager\Scripts\LightManagerFogLights.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Game\Utils\Materials.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Game\Utils\Md5Utils.cs" />
     <Compile Include="Assets\Scripts\Frame\Utils\XmlSaver.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Other\Fog\VolumetricFog\Scripts\FogLight.DirectionalShadow.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Game\GlobalUtils.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Pool\PoolManager.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Pool\InitPool.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Unity-Logs-Viewer\Reporter\ReporterGUI.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\UIBase\TipMessageUI.cs" />
+    <Compile Include="Assets\Scripts\Plugs\AllIn1SpriteShader\Scripts\All1CreateUnifiedOutline.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Game\Managers\AtlasManager.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\NavGraphEdge.cs" />
+    <Compile Include="Assets\Scripts\Frame\Tool\INPC.cs" />
+    <Compile Include="Assets\Scripts\Frame\Game\Configs\Types\ResType\ItemCfg.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\Queue\PriorityQueue.cs" />
+    <Compile Include="Assets\Scripts\Frame\Tool\ButtonExtension.cs" />
+    <Compile Include="Assets\Scripts\Frame\Game\Configs\Types\ResType\Letter_1Cfg.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Unity-Logs-Viewer\Reporter\MultiKeyDictionary.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\FakeLight.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Other\Fog\AreaLight\Scripts\AreaLightLUT.Load.cs" />
+    <Compile Include="Assets\Scripts\Frame\Game\Configs\Types\ResType\LabelItemCfg.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\UIBase\UIUtils.cs" />
+    <Compile Include="Assets\Scripts\Frame\Game\Configs\Types\ResType\LetterTaskCfg.cs" />
+    <Compile Include="Assets\Scripts\Frame\Game\Configs\Types\ResType\ItemTaskCfg.cs" />
+    <Compile Include="Assets\Scripts\Frame\Utils\CommonMethod.cs" />
+    <Compile Include="Assets\Scripts\Plugs\AllIn1SpriteShader\Scripts\SetAtlasUvs.cs" />
+    <Compile Include="Assets\Scripts\Frame\Tool\Singletons\MMPersistentHumbleSingleton.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\Math\FixedPoint\SinCosLookupTable.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\Math\FixedPoint\AcosLookupTable.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Http\HttpUtil.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\Utils\Dijkstra.cs" />
     <Compile Include="Assets\Scripts\Frame\Tool\Singletons\MMSingleton.cs" />
     <Compile Include="Assets\Scripts\Frame\Common\ResourceLoad\LoadManager.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Pool\PoolManager.cs" />
-    <Compile Include="Assets\Scripts\Frame\Game\Configs\Types\ResType\TaskCfg.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Game\GlobalUtils.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\Utils\Search.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\Math\FixedPoint\VInt3.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Game\Managers\AtlasManager.cs" />
-    <Compile Include="Assets\Scripts\Frame\Utils\Modules\DataExtend\AccountDataExtend.cs" />
-    <Compile Include="Assets\Scripts\Frame\Utils\DebugUI.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\GraphNode.cs" />
-    <Compile Include="Assets\Scripts\Frame\Utils\MassCtr.cs" />
-    <Compile Include="Assets\Scripts\Frame\Tool\ButtonExtension.cs" />
-    <Compile Include="Assets\Scripts\Frame\Tool\EXTool.cs" />
-    <Compile Include="Assets\Scripts\Frame\Tool\IItem.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Game\Managers\Res\ResConst.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\Math\FixedPoint\SinCosLookupTable.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\ResourceLoad\ConfigManager.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\NavGraphEdge.cs" />
-    <Compile Include="Assets\Scripts\Frame\Utils\ToolEx.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\SaveGameData\DBClass.cs" />
-    <Compile Include="Assets\Scripts\Frame\Utils\FPSUI.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\GraphEdge.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\Math\FixedPoint\AcosLookupTable.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Game\Managers\TextManager.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Game\Utils\AnimatorRandomParam.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Game\Utils\Serialization.cs" />
-    <Compile Include="Assets\Scripts\Frame\Game\Configs\Types\ResType\Letter_1Cfg.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Http\HttpUtil.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Game\Utils\CameraRoot.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Game\Utils\MathUtils.cs" />
-    <Compile Include="Assets\Scripts\Frame\Game\Configs\Base\BaseUserType.cs" />
-    <Compile Include="Assets\Scripts\Frame\Game\Configs\Types\ResType\ClueItemCfg.cs" />
-    <Compile Include="Assets\Scripts\Frame\Game\Configs\Types\ResType\CgCfg.cs" />
-    <Compile Include="Assets\Scripts\Frame\Game\Configs\Types\ResType\FirstLineCfg.cs" />
-    <Compile Include="Assets\Scripts\Frame\Game\Configs\Base\TextCfg.cs" />
-    <Compile Include="Assets\Scripts\Frame\Common\Graph\Structures\IUpdate.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Other\Fog\LightManager\Scripts\LightManager.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Other\Fog\AreaLight\Scripts\AreaLightLUT.Load.cs" />
-    <Compile Include="Assets\Scripts\Plugs\AllIn1SpriteShader\Scripts\AllIn1ShaderWindow.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Demigiant\DOTweenPro\DOTweenDeUnityExtended.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Demigiant\DOTweenPro\DOTweenProShortcuts.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Other\Fog\AreaLight\Scripts\AreaLightLUT.GGX.cs" />
-    <Compile Include="Assets\Scripts\Plugs\AllIn1SpriteShader\Scripts\AllIn1Shader.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Other\Fog\MinValueAttribute\MinValueAttribute.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Unity-Logs-Viewer\Reporter\ReporterGUI.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Game\Managers\Atlas\Atlas.cs" />
     <Compile Include="Assets\Scripts\Plugs\Other\Fog\VolumetricFog\Scripts\FogLight.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Other\Fog\AreaLight\Scripts\AreaLight.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Other\Fog\TubeLight\Scripts\TubeLightShadowPlane.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Demigiant\DOTweenPro\DOTweenTextMeshPro.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\Aspect Container\Aspect.cs" />
     <Compile Include="Assets\Scripts\Plugs\Unity-Logs-Viewer\Reporter\ReporterMessageReceiver.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Demigiant\DOTweenPro\DOTweenTk2d.cs" />
-    <Compile Include="Assets\Scripts\Plugs\AllIn1SpriteShader\Scripts\All1CreateUnifiedOutline.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Other\Fog\AreaLight\Scripts\AreaLightLUT.DisneyDiffuse.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Demigiant\DOTweenPro\DOTweenDeAudio.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Other\Fog\Wind\Scripts\Wind.cs" />
-    <Compile Include="Assets\Scripts\Plugs\AllIn1SpriteShader\Scripts\SetAtlasUvs.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Unity-Logs-Viewer\Reporter\Reporter.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Demigiant\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Other\Fog\AreaLight\Scripts\AreaLight.Direct.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Other\Fog\VolumetricFog\Scripts\VolumetricFog.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\GraphNode.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Game\Managers\TextManager.cs" />
+    <Compile Include="Assets\Scripts\Frame\Game\Configs\Base\BaseResData.cs" />
+    <Compile Include="Assets\Scripts\Frame\Tool\Singletons\MMPersistentSingleton.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\Utils\CostTable.cs" />
+    <Compile Include="Assets\Scripts\Frame\Tool\GameObjectUtils.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\AIState\AIStateIdle.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Game\Managers\ShopManger.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\SaveGameData\GameDataManager.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\AIState\AIStateBase.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\Math\FixedPoint\Atan2LookupTable.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\NavGraphNode.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Game\Utils\AnimatorRandomParam.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\Structures\IUpdate.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\Queue\IndexedPriorityQueue.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\AIState\AIStateSearch.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Msg\MsgDefine.cs" />
+    <Compile Include="Assets\Scripts\Frame\Game\Configs\Base\BaseLineData.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Game\Utils\Serialization.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\Math\FixedPoint\VLine.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Other\Fog\LightManager\Scripts\LightManager.cs" />
+    <Compile Include="Assets\Scripts\Plugs\AllIn1SpriteShader\Scripts\AllIn1ShaderWindow.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
     <Compile Include="Assets\Scripts\Plugs\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Other\Fog\VolumetricFog\Scripts\FogLight.DirectionalShadow.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Other\Fog\AreaLight\Scripts\AreaLight.Shadow.cs" />
     <Compile Include="Assets\Scripts\Plugs\Other\Fog\LightOverride\LightOverride.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Other\Fog\VolumetricFog\Scripts\FogEllipsoid.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Other\Fog\TubeLight\Scripts\TubeLight.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Other\Fog\LightManager\Scripts\LightManagerFogLights.cs" />
     <Compile Include="Assets\Scripts\Plugs\AllIn1SpriteShader\Scripts\RandomSeed.cs" />
+    <Compile Include="Assets\Scripts\Frame\Game\Configs\Base\TextCfg.cs" />
+    <Compile Include="Assets\Scripts\Frame\Tool\IHouse.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Other\Fog\TubeLight\Scripts\TubeLightShadowPlane.cs" />
+    <Compile Include="Assets\Scripts\Frame\Game\Configs\Types\ResType\LoadCfg.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
+    <Compile Include="Assets\Scripts\Frame\Game\Configs\Types\ResType\TaskCfg.cs" />
+    <Compile Include="Assets\Scripts\Frame\Utils\Modules\DataExtend\AccountDataExtend.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Other\Fog\VolumetricFog\Scripts\FogEllipsoid.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Game\Utils\MathUtils.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\SparseGraph.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\Utils\AStar.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Pool\PoolData.cs" />
+    <Compile Include="Assets\Scripts\Frame\Utils\MassCtr.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Other\Fog\TubeLight\Scripts\TubeLight.cs" />
+    <Compile Include="Assets\Scripts\Frame\Utils\DebugEX.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Demigiant\DOTweenPro\DOTweenDeUnityExtended.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\Aspect Container\Container.cs" />
+    <Compile Include="Assets\Scripts\Frame\Common\Graph\Math\FixedPoint\VInt2.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Other\Fog\VolumetricFog\Scripts\VolumetricFog.cs" />
     <Compile Include="Assets\Scripts\Plugs\AllIn1SpriteShader\Scripts\SetGlobalTime.cs" />
     <Compile Include="Assets\Scripts\Plugs\Other\Fog\LightManager\Scripts\LightManagerFogEllipsoids.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Unity-Logs-Viewer\Reporter\MultiKeyDictionary.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\Plugs\Other\Fog\VolumetricFog\Shaders\BlurShadowmap.shader" />
@@ -501,6 +501,15 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.5f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="DemiLib">
+      <HintPath>Assets\Scripts\Plugs\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>Assets\Scripts\Plugs\ProtoBuf\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>Assets\Scripts\Plugs\ProtoBuf\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Burst.Unsafe">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
@@ -513,32 +522,23 @@
     <Reference Include="Unity.Burst.Cecil">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Burst.Cecil.Rocks">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="DemiLib">
-      <HintPath>Assets\Scripts\Plugs\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.Protobuf">
-      <HintPath>Assets\Scripts\Plugs\ProtoBuf\Google.Protobuf.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>Assets\Scripts\Plugs\ProtoBuf\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
-    </Reference>
     <Reference Include="LitJson">
       <HintPath>Assets\Scripts\Plugs\LitJson.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
       <HintPath>Assets\Scripts\Plugs\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Rocks">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+    </Reference>
     <Reference Include="DOTweenPro">
       <HintPath>Assets\Scripts\Plugs\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.5f1c1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -975,17 +975,14 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Psdimporter.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Extras.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridge.001">
-      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+    <Reference Include="Unity.2D.Psdimporter.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core">
       <HintPath>Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
@@ -1019,6 +1016,9 @@
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>

@@ -57,9 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Plugs\Runtime\ProtoBinaryManager.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Runtime\ProtoBinaryManagerGeneric.cs" />
-    <Compile Include="Assets\Scripts\Plugs\Runtime\ProtoModule.cs" />
     <Compile Include="Assets\Scripts\Plugs\Runtime\CustomOptions\ProtobufUnityCustomOptions.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Runtime\ProtoModule.cs" />
+    <Compile Include="Assets\Scripts\Plugs\Runtime\ProtoBinaryManagerGeneric.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\Plugs\Runtime\E7.ProtobufUnity.asmdef" />
