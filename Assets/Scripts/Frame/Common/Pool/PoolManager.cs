@@ -8,45 +8,10 @@ using UnityEngine;
 /// </summary>
 public class PoolManager : Manager<PoolManager>
 {
-    /*  public ClassPool<AttackAction> AttackAction;    //攻击数据
-      public ClassPool<DamageAction> DamageAction;     //技能数据
-      public ClassPool<HealAction> HealAction;    //治疗数据
-    */
     private bool alinit = false;
-    //public ClassPool<MapLineData> MapLineDataAction;    //攻击数据
-    //public ClassPool<PassKeyData> PassKeyDataAction;    //密钥数据
-    /*public ClassPool<UnitData> UnitDataAction;    //实体连接数据
-    public ClassPool<UnitData> LineUnitDataAction;    //实体连接数据*/
-
     public const string InitPoolAB_NAME = "System/PoolRoot";
-
-    public GameObjectPool TextChatUnitPool;   //聊天对象池
-    public GameObjectPool LetterItemPool;  //信件条对象池
     public GameObjectPool ChatItemPool;  //聊天对象池
-
-    public GameObjectPool MapLinePool;   //地图线的对象池
-
-    public GameObjectPool SockNodePool;   //地图线的对象池
-
-    public GameObjectPool ItemPool;   //物体对象池
-    
-    public GameObjectPool UISideLabelPool;   //打开UI后侧边栏的Label对象池
-    public GameObjectPool VideoItemPool;   //Video物体
-    public GameObjectPool RoleSumSignItemPool;   //人物解锁总结  小物体 对象池
     public GameObjectPool EffectItemPool;  //特效 对象池
-
-   
-
-    /*public GameObjectPool Lines;    //线条管理
-    public GameObjectPool HeadTipSlot;  //单位头顶提示
-    public GameObjectPool TakeSlot;  //已读消息*/
-
-    /*   public ClassPool<ItemConnect> ItemConnects;
-       public ClassPool<TakeNote> TakeNotes;
-       public ClassPool<TipNote> TipNotes;
-       public ClassPool<RoleNoteData> RoleNoteDatas;
-       public ClassPool<NpcConnect> NpcConnects;*/
-
     public  Dictionary<int, GameObjectPool> objpool = new Dictionary<int, GameObjectPool>();   //对象链表
     private InitPool pooldata;
 
@@ -54,55 +19,21 @@ public class PoolManager : Manager<PoolManager>
     {
         yield return base.Init(obj);
 
-        /*  AttackAction = new ClassPool<AttackAction>(5);s
-          DamageAction = new ClassPool<DamageAction>(5);
-          HealAction = new ClassPool<HealAction>(5);*/
         if (!alinit)
         {
-            /*MapLineDataAction = new ClassPool<MapLineData>(10);
-            PassKeyDataAction = new ClassPool<PassKeyData>(10);*/
-            /* UnitDataAction = new ClassPool<UnitData>(10);
-               LineUnitDataAction = new ClassPool<UnitData>(10);*/
-
-
             GameObject poolRoot = ResourceManager.AllocObjectSync(InitPoolAB_NAME);
             poolRoot.transform.SetParent(obj.transform);
-            pooldata = poolRoot.GetComponent<InitPool>();
-
-
-            TextChatUnitPool = new GameObjectPool(1, "TextChatUnitPool", poolRoot.transform, 5);
-            LetterItemPool = new GameObjectPool(2, "LetterLayoutPool", poolRoot.transform, 7);
-            MapLinePool = new GameObjectPool(3, "MapLinePool", poolRoot.transform, 8);
+            pooldata = poolRoot.GetComponent<InitPool>();         
             ChatItemPool = new GameObjectPool(4, "ChatItemPool", poolRoot.transform, 30);
-            SockNodePool = new GameObjectPool(5, "SockNodePool", poolRoot.transform, 8);
-            ItemPool = new GameObjectPool(6, "ItePool", poolRoot.transform, 8);
-            UISideLabelPool = new GameObjectPool(7, "UISideLabelPool", poolRoot.transform, 3);
-            VideoItemPool = new GameObjectPool(8, "VideoItemPool", poolRoot.transform, 5);
-            RoleSumSignItemPool = new GameObjectPool(9, "RoleSumSignItemPool", poolRoot.transform, 5);
             EffectItemPool = new GameObjectPool(10, "EffectItemPool", poolRoot.transform, 5);
             InitData();
-
-        alinit = true;
+            alinit = true;
         }
-
-        //TextChatUnitPool = new ClassPool<TextChatUnitPool>(5); 
-        /* ItemConnects = new ClassPool<ItemConnect>(5);
-         TakeNotes = new ClassPool<TakeNote>(5);
-         TipNotes = new ClassPool<TipNote>(5);
-         RoleNoteDatas = new ClassPool<RoleNoteData>(5);
-         NpcConnects = new ClassPool<NpcConnect>(5);*/
-        //ChatBoxPool = new GameObjectPool(1,"ChatBox", )
-        //NpcConnects = new ClassPool<NpcConnect>(5);
-
-        //Lines = new GameObjectPool(1,"LineUnit", poolRoot.transform, 3);
-        //HeadTipSlot = new GameObjectPool(3,"HeadTipSlot", poolRoot.transform, 3);
-        //TakeSlot = new GameObjectPool(4, "TakeSlot", poolRoot.transform, 5);
-        //使用Objcet  初始化对象池数量   也可以通过 调用对象池的InitPerfab方法进行初始化 
-
     }
 
    
-    public void InitData() {
+    public void InitData() 
+    {
         if (GameBase.Instance != null)
         {
             if (GameBase.Instance.InitPoolMode == InitPoolEnum.OnByPoolObj)
@@ -114,7 +45,6 @@ public class PoolManager : Manager<PoolManager>
                 InitByScript();
             }
         }
-     
     }
 
 
@@ -134,108 +64,16 @@ public class PoolManager : Manager<PoolManager>
             else if (item.Obj != null)
                 pool.Spawn(item.Obj, item.num);
         }
-
     }
+
     /// <summary>
     /// 通过手写进行初始化
     /// </summary>
     private void InitByScript() {
        /* Lines.Spawn("Item/gameobject", 2);*/
     }
-}
+}   
 
-/// <summary>
-/// 回收对象扩展方法
-/// </summary>
-public static class PoolRecycleExtend
-{
-    /// <summary>
-    /// 回收攻击数据
-    /// </summary>
-    /// <param name="action"></param>
-    /*public static void Recycle(this MapLineData action)
-    {
-        PoolManager.Instance.MapLineDataAction.Recycle(action);
-    }
-
-    public static void Recycle(this PassKeyData action)
-    {
-        PoolManager.Instance.PassKeyDataAction.Recycle(action);
-    }*/
-
-    /*    public static void Recycle(this UnitData action)
-        {
-            PoolManager.Instance.UnitDataAction.Recycle(action);
-        }*/
-
-    /* /// <summary>
-     /// 回收攻击数据
-     /// </summary>
-     /// <param name="action"></param>
-     public static void Recycle(this ItemConnect action)
-     {
-         PoolManager.Instance.ItemConnects.Recycle(action);
-     }
-
-     /// <summary>
-     /// 回收 对话记录数据
-     /// </summary>
-     /// <param name="action"></param>
-     public static void Reccyle(this TakeNote action)
-     {
-         PoolManager.Instance.TakeNotes.Recycle(action);
-     }
-
-     public static void Recyle(this TipNote tipNote)
-     {
-         PoolManager.Instance.TipNotes.Recycle(tipNote);
-     }
-
-     public static void Recyle(this RoleNoteData roleNoteData)
-     {
-         PoolManager.Instance.RoleNoteDatas.Recycle(roleNoteData);
-     }
-
-     public static void Recyle(this NpcConnect data)
-     {
-         PoolManager.Instance.NpcConnects.Recycle(data);
-     }*/
-
-}
-
-    /// <summary>
-    /// 回收对象扩展方法
-    /// </summary>
-    /*public static class PoolRecycleExtend
-    {
-        /// <summary>
-        /// 回收攻击数据
-        /// </summary>
-        /// <param name="action"></param>
-        public static void Recycle(this AttackAction action)
-        {
-            PoolManager.Instance.AttackAction.Recycle(action);
-        }
-
-        /// <summary>
-        /// 回收伤害数据
-        /// </summary>
-        /// <param name="action"></param>
-        public static void Recycle(this DamageAction action)
-        {
-            PoolManager.Instance.DamageAction.Recycle(action);
-        }
-
-        /// <summary>
-        /// 回收治疗数据
-        /// </summary>
-        /// <param name="action"></param>
-        public static void Recycle(this HealAction action)
-        {
-            PoolManager.Instance.HealAction.Recycle(action);
-        }
-    }
-    */
     /// <summary>
     /// 类对象池
     /// </summary>
@@ -313,8 +151,7 @@ public class GameObjectPool
         this.node = obj.transform;
         PoolManager.Instance.objpool.Add(index, this);
     }
-
-
+    
     public void InitPerfab(string path, int  num)
     {
         Spawn(path, num);
