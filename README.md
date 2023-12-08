@@ -12,7 +12,7 @@
 
 - 消息传递机制 - MsgManager
 
-- 对象池 - PoolManager
+- 对象池 - PoolManager      [对象池具体说明](/MD/content/Pool.md) 
 
 - 数据储存 - GameDataManager
 
@@ -46,7 +46,7 @@
 
   - LitJson Json解析插件
     
- ![emoji1](MD/emoji1.jpg)
+ ![emoji1](MD/image/emoji1.jpg)
 
 
     
