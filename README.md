@@ -22,6 +22,8 @@
 
 - 单例模式 - Singleton
 
+- 关卡编辑器 - LevelConfig [关卡编辑器](/MD/content/Levelconfig.md) 
+
   
 
 
@@ -46,7 +48,8 @@
 
   - LitJson Json解析插件
     
+
  ![emoji1](MD/image/emoji1.jpg)
 
 
-    
+​    
