@@ -1,9 +1,9 @@
-# CheeseFramework
-一个通用的框架>
-
+# CheeseFramework框架
+一个简单通用的框架>   可以帮助你快速的完成游戏原型的制作，提升开发效率
 还在完善中...! (目移)
+为你的独立之路助力！
 
-
+## 架构简述
 **包含了**
 
 ​    ***大类***
@@ -48,6 +48,15 @@
 
   - LitJson Json解析插件
     
+### 运行环境
+
+* Unity 2018.4.x ~ 2023.x
+
+## 安装
+
+* Clone下来本项目，将Assets里面的所有文件复制到你的项目中
+* 下载 unitypackage 按照
+
 
  ![emoji1](MD/image/emoji1.jpg)
 
