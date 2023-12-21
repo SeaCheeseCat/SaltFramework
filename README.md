@@ -1,10 +1,20 @@
 # CheeseFramework框架
-一个简单通用的框架>   可以帮助你快速的完成游戏原型的制作，提升开发效率
-还在完善中...! (目移)
+一个自由极简的框架，可以帮助你快速的完成游戏原型的制作，提升开发效率
 为你的独立之路助力！
 
+
+
+> 使用它你不需要额外引入任何命名空间，做到拿到即用！
+
 ## 架构简述
-**包含了**
+
+*CheeseFramework对常用的几大模块进行了统一的封装，包括：资源加载、消息传递、对象池... ...*
+
+*在当前的框架版本中包含了8种内置模块，目前我也在进行游戏开发，会将遇到的一些新的需求持续更新到CheeseFramework框架中去*
+
+
+
+**它包含了**
 
 ​    ***大类***
 
@@ -54,8 +64,13 @@
 
 ## 安装
 
-* Clone下来本项目，将Assets里面的所有文件复制到你的项目中
-* 下载 unitypackage 按照
+- FrameworkCode
+
+  - ​	Clone下本项目将Framework文件夹放到你的游戏中去
+  
+- Package安装
+  - ​	[点此下载 unitypackage](Package/CheeseFramework.unitypackage)
+    
 
 
  ![emoji1](MD/image/emoji1.jpg)
