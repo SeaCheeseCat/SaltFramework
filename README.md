@@ -22,7 +22,7 @@
 
 - 消息传递机制 - MsgManager
 
-- 对象池 - PoolManager      [对象池具体说明](/MD/content/Pool.md) 
+- 对象池 - PoolManager      [对象池具体说明](/Document/Describe/Pool.md) 
 
 - 数据储存 - GameDataManager
 
@@ -32,7 +32,7 @@
 
 - 单例模式 - Singleton
 
-- 关卡编辑器 - LevelConfig [关卡编辑器](/MD/content/Levelconfig.md) 
+- 关卡编辑器 - LevelConfig [关卡编辑器](/Document/Describe/Levelconfig.md) 
 
   
 
@@ -73,7 +73,7 @@
     
 
 
- ![emoji1](MD/image/emoji1.jpg)
+ ![emoji1](Document/Item/emoji1.jpg)
 
 
 ​    
