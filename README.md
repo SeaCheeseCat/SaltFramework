@@ -20,9 +20,13 @@
 
 - 资源管理 - ResourceManager
 
+  - [如何使用资源管理](/Document/Describe/Resource.md)    [代码架构相关](/Document/Describe/ResourceCode.md)    
+
 - 消息传递机制 - MsgManager
 
-- 对象池 - PoolManager      [对象池具体说明](/Document/Describe/Pool.md) 
+- 对象池 - PoolManager      
+
+  - [如何使用对象池](/Document/Describe/Pool.md)     
 
 - 数据储存 - GameDataManager
 
@@ -32,7 +36,9 @@
 
 - 单例模式 - Singleton
 
-- 关卡编辑器 - LevelConfig [关卡编辑器](/Document/Describe/Levelconfig.md) 
+- 关卡编辑器 - LevelConfig 
+
+  - [如何使用关卡编辑器](/Document/Describe/Levelconfig.md)     
 
   
 
@@ -76,4 +82,4 @@
  ![emoji1](Document/Item/emoji1.jpg)
 
 
-​    
+ 阴暗地爬行.jpg
