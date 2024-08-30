@@ -1,4 +1,4 @@
-# CheeseFramework框架
+# SaltFramework框架
 一个自由极简的框架，可以帮助你快速的完成游戏原型的制作，提升开发效率
 为你的独立之路助力！
 
