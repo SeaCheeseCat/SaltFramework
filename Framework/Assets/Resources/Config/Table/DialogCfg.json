@@ -1,0 +1,114 @@
+{
+  "datas": [
+    {
+      "ID": 1,
+      "Character": 1,
+      "GroupID": 1,
+      "Content": "我已经不知道时间过去了多久"
+    },
+    {
+      "ID": 2,
+      "Character": 0,
+      "GroupID": 1,
+      "Content": "…"
+    },
+    {
+      "ID": 3,
+      "Character": 0,
+      "GroupID": 1,
+      "Content": "你隐隐感觉空间中有另一种声音"
+    },
+    {
+      "ID": 4,
+      "Character": 0,
+      "GroupID": 1,
+      "Content": "在呼吸，在挤压…"
+    },
+    {
+      "ID": 5,
+      "Character": 0,
+      "GroupID": 1,
+      "Content": "此刻一种不安的情绪将你淹没"
+    },
+    {
+      "ID": 6,
+      "Character": 0,
+      "GroupID": 1,
+      "Content": "你分辨不出任何词汇"
+    },
+    {
+      "ID": 7,
+      "Character": 0,
+      "GroupID": 1,
+      "Content": "那种声音似乎充斥着整个空间"
+    },
+    {
+      "ID": 8,
+      "Character": 0,
+      "GroupID": 1,
+      "Content": "它无时无刻不侵扰着你"
+    },
+    {
+      "ID": 9,
+      "Character": 0,
+      "GroupID": 1,
+      "Content": "…"
+    },
+    {
+      "ID": 10,
+      "Character": 0,
+      "GroupID": 1,
+      "Content": "你能感觉到空间中的一切都在剥离"
+    },
+    {
+      "ID": 11,
+      "Character": 0,
+      "GroupID": 1,
+      "Content": "所有东西都在离你越来越远"
+    },
+    {
+      "ID": 12,
+      "Character": 0,
+      "GroupID": 1,
+      "Content": "不，不只空间"
+    },
+    {
+      "ID": 13,
+      "Character": 0,
+      "GroupID": 1,
+      "Content": "连同你的血液，你的思维"
+    },
+    {
+      "ID": 14,
+      "Character": 0,
+      "GroupID": 1,
+      "Content": "交织着，缠绕着，混乱着"
+    },
+    {
+      "ID": 15,
+      "Character": 0,
+      "GroupID": 1,
+      "Content": "…"
+    },
+    {
+      "ID": 16,
+      "Character": 1,
+      "GroupID": 1,
+      "Content": "卡尔医生一定知道我怎么了"
+    },
+    {
+      "ID": 17,
+      "Character": 1,
+      "GroupID": 1,
+      "Content": "…"
+    }
+  ],
+  "language": [
+    {
+      "ID": 1,
+      "CN": "测试",
+      "EN": "Test",
+      "JP": "テストをする"
+    }
+  ]
+}

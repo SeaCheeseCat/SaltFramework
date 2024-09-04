@@ -1,0 +1,19 @@
+using System;
+using UnityEngine.UI;
+using UnityEngine;
+using DG.Tweening;
+using System.Collections;
+
+public class {0} : UIBase
+{
+    internal override void OnOpen()
+    {
+        base.OnOpen();
+    }
+
+    internal override void Init(params object[] dialogArgs)
+    {
+        base.Init(dialogArgs);
+    }
+
+}

@@ -1,0 +1,20 @@
+{
+  "datas": [
+    {
+      "ID": 1,
+      "Path": "Particle/Dust"
+    },
+    {
+      "ID": 2,
+      "Path": "Particle/Lights"
+    }
+  ],
+  "language": [
+    {
+      "ID": 1,
+      "CN": "测试",
+      "EN": "Test",
+      "JP": "テストをする"
+    }
+  ]
+}

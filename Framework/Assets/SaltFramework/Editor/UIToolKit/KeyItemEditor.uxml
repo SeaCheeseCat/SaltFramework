@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement style="flex-grow: 1;">
+        <uie:Toolbar style="transition-property: bottom, ignored, ignored; transition-duration: 0s, 0s, 0s; transition-timing-function: ease, ease, ease; transition-delay: 0s, 0s, 0s; opacity: 1;">
+            <ui:Label tabindex="-1" text="按键" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; flex-grow: 2; border-right-color: rgb(48, 48, 48); border-top-width: 0; border-right-width: 1px; border-bottom-width: 0; border-left-width: 0;" />
+            <ui:Label tabindex="-1" text="事件参数" parse-escape-sequences="true" display-tooltip-when-elided="true" style="margin-left: 0; flex-grow: 5; -unity-text-align: upper-center;" />
+            <ui:Label tabindex="-1" text="功能" parse-escape-sequences="true" display-tooltip-when-elided="true" style="margin-left: 0; flex-grow: 1; -unity-text-align: upper-center; border-left-color: rgb(48, 48, 48); border-left-width: 1px;" />
+        </uie:Toolbar>
+        <ui:VisualElement style="flex-grow: 1; flex-direction: row;">
+            <ui:VisualElement style="flex-grow: 2; flex-direction: row;">
+                <ui:DropdownField index="0" name="keyEnum" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; width: 78px;" />
+                <ui:TextField picking-mode="Ignore" name="keyText" style="flex-grow: 1; width: 30px; -unity-text-align: upper-center;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 8; width: 200px;">
+                <ui:TextField picking-mode="Ignore" name="argText" style="flex-grow: 0; height: 17px; width: 380px; margin-left: 0; -unity-text-align: middle-left; white-space: normal; text-overflow: ellipsis; justify-content: space-around; align-items: auto;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; flex-direction: row; margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px;">
+                <ui:Button text="-" parse-escape-sequences="true" display-tooltip-when-elided="true" name="deleteBtn" />
+                <ui:Toggle usage-hints="None" focusable="true" value="true" class="test testnew" style="align-items: auto; justify-content: space-between; align-self: stretch; flex-direction: row-reverse; width: auto;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

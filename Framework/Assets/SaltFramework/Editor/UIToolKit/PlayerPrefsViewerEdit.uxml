@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns="UnityEngine.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="VisualElement" style="flex-grow: 10; margin-top: 6px;">
+        <ui:VisualElement style="flex-grow: 1; flex-direction: row; align-items: center; justify-content: center; -unity-text-align: upper-left;">
+            <ui:Button text="+ 新增" parse-escape-sequences="true" display-tooltip-when-elided="true" name="newKeyBtn" style="color: rgb(255, 255, 255); -unity-font-style: normal; -unity-text-outline-color: rgb(255, 255, 255); -unity-text-outline-width: 0; background-color: rgb(22, 22, 22); border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px;" />
+            <ui:Button text="u 刷新" parse-escape-sequences="true" display-tooltip-when-elided="true" name="refreshBtn" style="background-color: rgb(22, 22, 22); border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px;" />
+            <ui:Button text="a 删除全部" parse-escape-sequences="true" display-tooltip-when-elided="true" name="deleteAllBtn" style="color: rgb(255, 255, 255); -unity-font-style: normal; -unity-text-outline-color: rgb(255, 255, 255); -unity-text-outline-width: 0; background-color: rgb(22, 22, 22); border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px;" />
+        </ui:VisualElement>
+        <ui:ListView focusable="true" name="keyList" fixed-item-height="25" style="flex-grow: 100; border-left-color: rgb(38, 38, 38); border-right-color: rgb(38, 38, 38); border-top-color: rgb(38, 38, 38); border-bottom-color: rgb(38, 38, 38);" />
+    </ui:VisualElement>
+</ui:UXML>

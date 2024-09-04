@@ -1,0 +1,10 @@
+#prefsListView {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+#addButton {
+    height: 30px;
+    background-color: #007ACC;
+    color: white;
+}

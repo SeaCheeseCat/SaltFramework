@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement style="flex-grow: 1; height: 32px; -unity-text-align: upper-left; justify-content: flex-start; align-items: center; align-self: auto; flex-direction: row; border-bottom-color: rgb(0, 0, 0); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px;">
+        <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="keyLabel" style="flex-grow: 3; width: 89px;" />
+        <ui:TextField picking-mode="Ignore" name="valueText" style="flex-grow: 5; height: 17px; width: 380px; margin-left: 0; -unity-text-align: middle-left; white-space: normal; text-overflow: ellipsis; justify-content: space-around; align-items: auto;" />
+        <ui:Button text="-" parse-escape-sequences="true" display-tooltip-when-elided="true" name="deleteBtn" style="flex-grow: 1;" />
+    </ui:VisualElement>
+</ui:UXML>

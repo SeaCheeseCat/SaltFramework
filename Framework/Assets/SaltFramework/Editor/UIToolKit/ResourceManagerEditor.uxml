@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Editor/UIToolKit/ResourceManagerEditor.uss?fileID=7433441132597879392&amp;guid=31b3da1ce57d9bc458fb62954db3baa8&amp;type=3#ResourceManagerEditor" />
+    <ui:Label tabindex="-1" text="资源管理" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; border-bottom-color: rgb(255, 255, 255); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; margin-bottom: 5px; font-size: 13px; -unity-font-style: bold;" />
+    <ui:VisualElement style="flex-grow: 1; justify-content: flex-start; white-space: normal; align-items: stretch; flex-direction: row; height: auto;">
+        <ui:VisualElement style="flex-grow: 1; width: 70px; opacity: 1; border-right-color: rgb(118, 118, 118); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 1px; border-bottom-left-radius: 1px; padding-right: 2px; align-items: stretch;">
+            <ui:VisualElement style="flex-grow: 1; align-items: stretch; justify-content: flex-start; white-space: normal; flex-direction: row;">
+                <uie:ToolbarSearchField focusable="true" style="opacity: 1; flex-direction: row; align-items: stretch; justify-content: flex-end; align-self: auto; width: auto; flex-grow: 3;" />
+                <ui:Button text="&#10;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="refreshBtn" style="background-image: url(&apos;project://database/Assets/Editor/UIToolKit/Icon/updateUI.png?fileID=2800000&amp;guid=446f69e9b654a9a4e90017048d35a1e9&amp;type=3#updateUI&apos;); margin-bottom: 3px; margin-top: 4px;" />
+            </ui:VisualElement>
+            <ui:TreeView focusable="true" name="TreeView" style="flex-grow: 150; width: auto; flex-shrink: 1; max-height: initial; height: initial;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 5; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; height: initial; flex-direction: column; width: 16px;">
+            <ui:VisualElement style="flex-grow: 1; flex-direction: column;">
+                <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="title" style="-unity-text-align: upper-right; -unity-font-style: bold; font-size: 14px;" />
+                <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="count" style="-unity-text-align: upper-right; color: rgb(113, 113, 113); border-bottom-color: rgb(67, 67, 67); border-bottom-width: 1px;" />
+            </ui:VisualElement>
+            <ui:ListView focusable="true" name="contentListView" fixed-item-height="27" style="flex-grow: 3; height: 100%; max-height: initial; min-height: initial;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

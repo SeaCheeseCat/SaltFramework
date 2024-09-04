@@ -1,0 +1,22 @@
+{
+  "datas": [
+    {
+      "ID": 1,
+      "Chapter": 1,
+      "Level": 1,
+      "Trigger": [
+        0,
+        0
+      ],
+      "Storymode": false
+    }
+  ],
+  "language": [
+    {
+      "ID": 1,
+      "CN": "测试",
+      "EN": "Test",
+      "JP": "テストをする"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "datas": [
+    {
+      "ID": 1001,
+      "Path": "camera-open"
+    },
+    {
+      "ID": 1002,
+      "Path": "button-presses_01"
+    },
+    {
+      "ID": 1003,
+      "Path": "camera-shutter_01"
+    },
+    {
+      "ID": 1004,
+      "Path": "camera-shutter_02"
+    },
+    {
+      "ID": 1005,
+      "Path": "camera-zoom-in-and-out"
+    }
+  ],
+  "language": [
+    {
+      "ID": 1,
+      "CN": "测试",
+      "EN": "Test",
+      "JP": "テストをする"
+    }
+  ]
+}

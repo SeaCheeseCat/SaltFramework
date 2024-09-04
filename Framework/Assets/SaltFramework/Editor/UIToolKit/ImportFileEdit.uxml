@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Editor/UIToolKit/ImportFileEdit.uss?fileID=7433441132597879392&amp;guid=48991e97358076748a8d34580f7b3202&amp;type=3#ImportFileEdit" />
+    <ui:VisualElement style="flex-grow: 0; height: 15px;">
+        <ui:Label tabindex="-1" text="自动分类" parse-escape-sequences="true" display-tooltip-when-elided="true" name="FileName" style="font-size: 11px; color: rgb(231, 231, 231); -unity-text-align: upper-center; top: 4px;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="icon" style="flex-grow: 0; height: 52px; width: 49px; background-image: url(&apos;project://database/Assets/Editor/UIToolKit/Icon/edit3.png?fileID=2800000&amp;guid=4aa1da062ba7b3644810d4d134e195ce&amp;type=3#edit3&apos;); left: 151px; flex-shrink: 0; top: 6px;" />
+    <ui:VisualElement style="flex-grow: 0; flex-direction: column; justify-content: center; height: 35px; width: 401px;">
+        <ui:DropdownField label="          资源类型:" index="-1" choices="System.Collections.Generic.List`1[System.String]" name="type" style="align-items: center; justify-content: flex-start; align-self: auto; height: 44px; width: 211px; font-size: 15px; color: rgb(255, 255, 255); -unity-text-align: upper-left; transition-property: all, ignored; transition-duration: 0s, 0s; transition-timing-function: ease, ease; transition-delay: 0s, 0s; flex-direction: row; flex-wrap: nowrap; flex-shrink: 10; left: 66px;" />
+    </ui:VisualElement>
+    <ui:VisualElement style="flex-grow: 0; flex-direction: row; justify-content: space-around; height: 26px; width: 349px; margin-bottom: 5px; margin-top: 0; top: 12px;">
+        <ui:Button text="确定" parse-escape-sequences="true" display-tooltip-when-elided="true" name="YesBtn" style="border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 1px; border-bottom-left-radius: 1px; border-left-color: rgb(185, 185, 185); border-right-color: rgb(185, 185, 185); border-top-color: rgb(185, 185, 185); border-bottom-color: rgb(185, 185, 185); background-color: rgb(36, 36, 36); padding-right: 25px; padding-left: 25px;" />
+        <ui:Button text="取消" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CancelBtn" style="border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 1px; border-bottom-left-radius: 1px; background-color: rgb(36, 36, 36); border-left-color: rgb(185, 185, 185); border-right-color: rgb(185, 185, 185); border-top-color: rgb(185, 185, 185); border-bottom-color: rgb(185, 185, 185); padding-right: 25px; padding-left: 25px;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Editor/SceneObjectWindow.uss?fileID=7433441132597879392&amp;guid=babfa49c5c026d6409ff76d01336551e&amp;type=3#SceneObjectWindow" />
+    <ui:VisualElement name="Top" style="flex-grow: 0; flex-direction: row;">
+        <uie:ObjectField label="Object Field" name="ObjectField" style="flex-grow: 1; flex-direction: row; justify-content: flex-start; align-items: stretch; opacity: 1; display: flex; visibility: visible; overflow: hidden;" />
+        <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Mid" style="flex-grow: 1; flex-direction: row;">
+        <ui:ListView focusable="true" name="ListView" style="width: 200px; margin-top: 1px; margin-bottom: 1px; margin-right: 1px; margin-left: 1px; background-color: rgba(0, 0, 0, 0); border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; height: 399px;" />
+        <ui:VisualElement name="right" style="flex-grow: 1; border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0); height: 399px; flex-wrap: nowrap;">
+            <ui:Foldout text="Foldout" style="border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; background-color: rgb(38, 38, 38); padding-top: 1px; padding-right: 1px; padding-bottom: 5px; padding-left: 1px;">
+                <ui:TextField picking-mode="Ignore" label="Name" />
+                <ui:Vector3Field label="Vec3 Field" />
+            </ui:Foldout>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:Button text="Refresh" parse-escape-sequences="true" display-tooltip-when-elided="true" name="RefreshBtn" />
+</ui:UXML>

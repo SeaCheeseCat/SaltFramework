@@ -1,0 +1,16 @@
+{
+  "datas": [
+    {
+      "ID": 1,
+      "Content": "汪汪汪{[en:I don't know][jp:分かんない]}"
+    }
+  ],
+  "language": [
+    {
+      "ID": 1,
+      "CN": "测试",
+      "EN": "Test",
+      "JP": "テストをする"
+    }
+  ]
+}
