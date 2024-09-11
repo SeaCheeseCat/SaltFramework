@@ -1,0 +1,49 @@
+
+#测试注释
+#send   TestReqData  {   
+#	string val1[];  #内部注释
+#	int val2;
+#
+#	float val3;
+#	bool val4;
+#}
+
+#receive TestSubResData 
+#{string subName;
+#string test1;}
+
+#receive TestResData{
+#	string strValue;
+#	int intValue;
+#	float floatValue;
+#	bool boolValue;
+#
+#	int intArray[];
+#	TestSubResData subResData;
+#	TestSubResData listSubData[];
+#}
+
+#中间注释
+#protocol TEST_1
+#{
+#	url hello.php;
+#	blockTime 0.5;
+#
+#	request  TestReqData;
+#	#中间注释
+#	response TestResData;
+#}
+
+#protocol TEST_2
+#{
+#	url hello2.php;
+#	request 
+#	{
+#		string test1;
+#		string test2;
+#	}
+#	response
+#	{
+#		string test3;
+#	}
+#}

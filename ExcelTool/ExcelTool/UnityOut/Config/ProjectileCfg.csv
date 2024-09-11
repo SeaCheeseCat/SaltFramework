@@ -1,0 +1,12 @@
+1|Projectile/Arrow|10|Common/hit_arrow_a,Common/hit_arrow_b,Common/hit_arrow_c|Common/Hit|
+2|Projectile/FireBall|9|Common/hit_fire|Common/Hit_Fire|
+3|Projectile/Lighting|15|Common/hit_lighting|Common/Hit_Lighting|
+4|Projectile/Wind|12|Common/hit_wind|Common/Hit_Wind|
+5|Projectile/Rock|9|Common/hit_rock|Common/Hit_Rock|
+6|Projectile/Poison|9|Common/hit_poison|Common/Poison|
+7|Projectile/Purple|10|Common/hit_purple|Common/Hit_Purple|
+8|Projectile/Dark|9|Common/hit_dark|Common/Hit_Dark|
+9|Projectile/Ice|10|Common/hit_ice|Common/Hit_Ice|
+10|Projectile/FireBallBig|9|Common/hit_fire|Common/Hit_Fire|
+11|Projectile/Storm|10|Common/hit_wind|Common/Hit_Wind|
+12|Projectile/Meteorite|10|Common/hit_fire|Skill/meteoriteExplore|

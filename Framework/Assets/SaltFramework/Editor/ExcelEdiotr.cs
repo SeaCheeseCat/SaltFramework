@@ -219,7 +219,6 @@ public class ExcelEditor : OdinEditorWindow
         if (Directory.Exists(configPath))
         {
             RemoveUnnecessary();
-            //获取指定目录下所有的文件
             DirectoryInfo direction = new DirectoryInfo(configPath);
             FileInfo[] files = direction.GetFiles("*", SearchOption.AllDirectories);
             List<string> exs = new List<string>();
@@ -233,22 +232,17 @@ public class ExcelEditor : OdinEditorWindow
                 var nam = files[i].Name.Replace(".xlsx", "");
                 exs.Add(nam);
             }
-
             var excevsPath = PathManager.GetPath + "/StreamingAssets/ExcelVs.txt";
-
             ExcelList ex = new ExcelList();
             ex.excels = exs;
             File.WriteAllText(excevsPath, JsonConvert.SerializeObject(ex));
-
-            //刷新项目
             AssetDatabase.Refresh();
-            //AssetBundleBuilder.SetAbNameInPath(jsonPath);
             AssetDatabase.Refresh();
             return true;
         }
         else
         {
-            Debug.LogError("ReadExcel configPath not Exists!");
+            DebugEX.LogFrameworkMsg("ReadExcel configPath not Exists!", configPath);
             return false;
         }
     }
@@ -262,8 +256,14 @@ public class ExcelEditor : OdinEditorWindow
     /// </summary>
     private static void RemoveUnnecessary()
     {
-        Directory.Delete(scriptsPath, true);
-        Directory.Delete(jsonPath, true);
+        try
+        {
+            Directory.Delete(scriptsPath, true);
+            Directory.Delete(jsonPath, true);
+        }
+        catch { 
+        
+        }
     }
 
 

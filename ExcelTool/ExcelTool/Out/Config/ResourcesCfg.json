@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "ID": 1001,
+            "Mark": "\u5f00\u59cb\u6e38\u620f/\u7ee7\u7eed\u6e38\u620f\u65f6\u7684\u76f8\u673a\u5f00\u673a\u97f3",
+            "Path": "camera-open"
+        },
+        {
+            "ID": 1002,
+            "Mark": "\u6253\u5f00\u83dc\u5355\u65f6\u7684\u6309\u952e\u97f3",
+            "Path": "button-presses_01"
+        },
+        {
+            "ID": 1003,
+            "Mark": "\u5bf9\u7126\u6210\u529f\u7684\u63d0\u793a\u97f3",
+            "Path": "camera-shutter_01"
+        },
+        {
+            "ID": 1004,
+            "Mark": "\u62cd\u7167\u5feb\u95e8\u97f3",
+            "Path": "camera-shutter_02"
+        },
+        {
+            "ID": 1005,
+            "Mark": "\u8c03\u6574\u7126\u8ddd\u7684\u673a\u68b0\u97f3",
+            "Path": "camera-zoom-in-and-out"
+        }
+    ]
+}

@@ -1229,8 +1229,6 @@ public static class ConfigLoader
 
 public delegate void StrDelegate(string f);
 
-public delegate void VFactorDelegate(VFactor f);
-
 public delegate void VoidDelegate();
 
 /// <summary>

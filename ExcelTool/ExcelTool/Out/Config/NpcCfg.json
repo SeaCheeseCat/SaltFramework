@@ -1,0 +1,74 @@
+{
+    "data": [
+        {
+            "ID": 2001,
+            "Mark": "Doe",
+            "Dialog": "nan",
+            "Path": "Npc/Doe",
+            "Islens": false
+        },
+        {
+            "ID": 2002,
+            "Mark": "\u7238\u7238",
+            "Dialog": "\u6211\u4e5f\u4e0d\u77e5\u9053{[en:I don't know][jp:\u5206\u304b\u3093\u306a\u3044]}",
+            "Path": "Npc/Father",
+            "Islens": true
+        },
+        {
+            "ID": 2003,
+            "Mark": "\u5988\u5988",
+            "Dialog": "nan",
+            "Path": "Npc/Mother",
+            "Islens": true
+        },
+        {
+            "ID": 2004,
+            "Mark": "\u5f1f\u5f1f",
+            "Dialog": "nan",
+            "Path": "Npc/Brother",
+            "Islens": true
+        },
+        {
+            "ID": 2005,
+            "Mark": "\u7956\u6bcd",
+            "Dialog": "nan",
+            "Path": "Npc/Grandma",
+            "Islens": true
+        },
+        {
+            "ID": 2006,
+            "Mark": "\u7956\u7236",
+            "Dialog": "nan",
+            "Path": "Npc/Grandpa",
+            "Islens": true
+        },
+        {
+            "ID": 2007,
+            "Mark": "\u53d4\u53d4",
+            "Dialog": "nan",
+            "Path": "Npc/Uncle",
+            "Islens": true
+        },
+        {
+            "ID": 2008,
+            "Mark": "\u4e8c\u53d4",
+            "Dialog": "nan",
+            "Path": "Npc/Uncle2",
+            "Islens": true
+        },
+        {
+            "ID": 2009,
+            "Mark": "\u963f\u9ec4(\u7ad9\u7acb)",
+            "Dialog": "nan",
+            "Path": "Npc/AhuangStand",
+            "Islens": false
+        },
+        {
+            "ID": 2010,
+            "Mark": "\u963f\u9ec4(\u62ac\u722a)",
+            "Dialog": "nan",
+            "Path": "Npc/AhuangLift",
+            "Islens": false
+        }
+    ]
+}

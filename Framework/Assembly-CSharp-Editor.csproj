@@ -64,12 +64,12 @@
     <Compile Include="Assets\SaltFramework\Editor\UIToolKit\ImportFileEdit.cs" />
     <Compile Include="Assets\SaltFramework\Editor\ConfigSuccesTip.cs" />
     <Compile Include="Assets\SaltFramework\Editor\LevelBuildEditor.cs" />
-    <Compile Include="Assets\SaltFramework\Editor\MyEditor.cs" />
     <Compile Include="Assets\SaltFramework\Editor\EditorCoroutineUtility.cs" />
     <Compile Include="Assets\SaltFramework\Editor\LevelDataEditor.cs" />
     <Compile Include="Assets\SaltFramework\Editor\LanguageEditor.cs" />
     <Compile Include="Assets\SaltFramework\Editor\SceneObjectWindow.cs" />
     <Compile Include="Assets\SaltFramework\Editor\MyAssetPostprocessor.cs" />
+    <Compile Include="Assets\SaltFramework\Editor\PathEditor.cs" />
     <Compile Include="Assets\SaltFramework\Editor\Inspector\UIToolKit\UIBaseInspectorEdit.cs" />
     <Compile Include="Assets\SaltFramework\Editor\EditTool.cs" />
     <Compile Include="Assets\SaltFramework\Editor\FrameworkEditor.cs" />

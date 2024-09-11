@@ -1,0 +1,15 @@
+{
+    "data": [
+        {
+            "ID": 1,
+            "Mark": "\u5173\u53611-1",
+            "Chapter": 1,
+            "Level": 1,
+            "Trigger": [
+                0,
+                0
+            ],
+            "Storymode": false
+        }
+    ]
+}
