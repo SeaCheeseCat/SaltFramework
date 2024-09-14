@@ -21,52 +21,50 @@
 ###                                                          ***▷ 核心部分***
 
 
-- **资源管理** - ResourceManager
+- **资源管理** -   [ResourceManager](Document/Describe/Resource.md)
 
   ​	 *负责管理游戏内的各类资源加载。它封装了异步和同步两种资源加载方式，提供更灵活的加载方式*
 
   
 
-- **消息传递机制** - MsgManager
+- **消息传递机制** - [MsgManager](Document/Describe/MsgManager.md)
 
   ​	*用于实现松耦合消息传递和广播的核心模块。它允许对象之间	通过消息系统进行通信，无需相互直接引用，适用于事件驱动的场景。它允许对象进行发送，注册事件*
 
   
 
-- 游戏音频管理器 - AudioManager     
+- 游戏音频管理器 -  [AudioManager](Document/Describe/AudioManager.md)  
 
   ​	*游戏内管理和控制音频播放的核心模块，负责管理背景音乐 、音效 、语音等各类音频的播放、暂停、停止，渐入渐出等操作*
 
 
 
-- 对象池 - PoolManager
+- 对象池 -  [PoolManager](Document/Describe/Pool.md)  
   
   ​	 *用于管理游戏对象池的模块，通过对象池优化游戏中频繁创建和销毁对象的操作，减少性能开销。*
   
   
   
-- FSM有限状态机 - AIStateBase
+- FSM有限状态机 - [AIStateBase](Document/Describe/FSM.md)  
   
   ​	 *为每个单位提供了清晰的行为逻辑管理，通过在不同的状态之间进行切换，来控制单位的行为。有限状态机简单、高效，适合用来实现各种 AI 行为。*
 
 
 
-- Excel配置表 - Config
+- Excel配置表 -  [Config](Document/Describe/Excel.md)  
 
   ​      *从 Excel 配置表中读取和管理游戏数据。通过将数据存储在 Excel 表中，可以方便地进行数据修改和管理，减少代码中的硬编码。*
 
 
-- 多语言模块 - LanguageManager
+- 多语言模块 -  [LanguageManager](Document/Describe/LanguageManager.md)  
 
   ​    *管理游戏中多语言支持，通过加载和切换不同语言的文本资源，使游戏能够支持多个语言版本。*
   
-  
-- 存档模块 - ArchiveManager 
+- 存档模块 -  [ArchiveManager](Document/Describe/ArchiveManager.md)  
 
   ​    *用于管理游戏存档，提供数据的加密、解密和序列化功能。通过Json进行储存*
   
-  
-- UI模块 - UIManager、UIBase
+- UI模块 -  [UIManager、UIBase](Document/Describe/UI.md)  
 
   ​      *用于处理游戏中的所有UI相关操作，封装了统一的UI注册，打开，关闭接口，在任意窗口都能快捷打开的UI*
 
@@ -107,8 +105,8 @@
   
   
 ###                                                          ***▷ 编辑器拓展部分***
-  
-  
+
+
 - 框架核心配置 - FrameworkEditor
 
   - 项目设置
