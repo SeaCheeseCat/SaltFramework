@@ -15,6 +15,13 @@
 *在当前的框架版本中包含了17种内置模块，目前我也在进行游戏开发，会将遇到的一些新的需求持续更新到框架中去*
 
 
+ ![framework](/Document/Item/salt.png)
+
+> *一张图告诉你框架发生了什么（什么）* 
+>
+> *通过封装好的十七个模块，你可以从你的自定义脚本中脱离出来，框架就像他们之间用来连接的关节，通过统一的管理方式，去分发给Unity执行，会让你的代码看起来更有逻辑，但是使用框架之前你扔需要大部分的C#基础。  UI的控制方式你可以采取MVC架构，让你的代码设计更加简洁，UIManager为你封装好了你需要的一切*
+
+
 
 **它包含了:**
 
@@ -69,36 +76,36 @@
   ​      *用于处理游戏中的所有UI相关操作，封装了统一的UI注册，打开，关闭接口，在任意窗口都能快捷打开的UI*
 
 
-- 单例模式 - Singleton
+- 单例模式 - [Singleton](Document/Describe/Singleton.md)  
 
   ​      *单例模式确保一个类在整个应用程序中只有一个实例，并提供全局访问该实例的方法。*
 
 
-- 数据管理 - GameBaseData
+- 数据管理 - [GameBaseData](Document/Describe/GameBaseData.md)  
 
   ​		*使用静态字段来存储和访问全局数据，方便在整个应用程序中访问和更新这些数据*
 
-- 事件管理模块 - EventManager 
+- 事件管理模块 -  [EventManager](Document/Describe/EventManager.md)  
 
   ​		*允许通过字符串和反射来调用事件。使得事件系统更加灵活，并且可以方便地与 Excel 表格中的数据配合使用，支持动态事件触发。*
   
-- 按键管理模块 - InputKeyManager 
+- 按键管理模块 -  [InputKeyManager](Document/Describe/InputKeyManager.md)  
 
   ​		*提供了统一的管理按键的按下、释放和触发检测功能，并实现了按键状态的缓存机制，并且包含快速接入长按*
 
-- Log模块 - DebugEx 
+- Log模块 -  [DebugEx](Document/Describe/DebugEx.md)  
 
   ​		*用于提供更灵活和符合直觉的日志记录方式。它扩展了 Unity 的 Debug 类，支持更清晰和结构化的日志输出，同时包含帧率检测*
 
-- 场景加载模块 - LoadManager 
+- 场景加载模块 - [LoadManager](Document/Describe/LoadManager.md)  
 
   ​		*管理场景加载的模块。它提供了场景的异步加载、卸载以及过渡效果的支持*
   
-- 动画模块 - AnimationManager 
+- 动画模块 - [AnimationManager](Document/Describe/AnimationManager.md)  
 
   ​		*供了灵活的接口来快速实现物体运动、旋转、缩放等动画效果（非补间动画）需要继承AnimationBase进行使用*
   
-- 地图编辑器 - MapConfig 
+- 地图编辑器 - [MapConfig](Document/Describe/MapConfig.md)  
   
   ​		*用于自动记录和生成场景的模块，支持动态加载游戏关卡。与传统的一个场景一个文件的方式不同，`MapConfig` 允许通过配置文件和程序逻辑动态生成和加载场景，以提高游戏开发的灵活性和效率。*
   
@@ -176,7 +183,7 @@
     
 
 
- ![emoji1](Document/Item/emoji1.jpg)
+ ![emoji1](/Document/Item/emoji1.jpg)
 
  阴暗地爬行.jpg
 
