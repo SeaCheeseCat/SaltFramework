@@ -30,9 +30,7 @@
 
 - **`AllocObjectAsync<T>`**：异步加载指定路径的资源对象。
 
-  - 参数：
-    - `path`：资源的路径。
-    - `callback`：加载完成后的回调函数。
+  - 参数：- `path`：资源的路径。- `callback`：加载完成后的回调函数。
   - **返回**：无返回值。
 
 - **`LoadPrefabSync`**：同步加载指定路径的 Prefab。
@@ -42,10 +40,8 @@
 
 - **`LoadPrefabAsync`**：异步加载指定路径的 Prefab。
 
-  - 参数：
-
-    - `path`：Prefab 的路径。
-  - `callback`：加载完成后的回调函数。
+  - 参数： - `path`：Prefab 的路径。
+         - `callback`：加载完成后的回调函数。
     
   - **返回**：无返回值。
 
@@ -56,12 +52,7 @@
 
 - **`LoadAssetBundleAsync`**：异步加载指定 AssetBundle。
 
-  - 参数
-
-    ：
-
-    - `bundleName`：AssetBundle 的名称。
-    - `callback`：加载完成后的回调函数。
+  - 参数 ：- `bundleName`：AssetBundle 的名称。- `callback`：加载完成后的回调函数。
 
   - **返回**：无返回值。
 
@@ -72,9 +63,7 @@
 
 - **`LoadDependenciesAsync`**：异步加载指定资源的所有依赖。
 
-  - 参数：
-    - `path`：资源的路径。
-    - `callback`：加载完成后的回调函数。
+  - 参数：- `path`：资源的路径。 - `callback`：加载完成后的回调函数。
   - **返回**：无返回值。
 
 - **`UnloadAllAssetBundles`**：卸载所有 AssetBundle。
