@@ -179,7 +179,7 @@
   - ​	Clone下本项目将Framework文件夹放到你的游戏中去
   
 - Package安装
-  - ​	[点此下载 unitypackage](Package/CheeseFramework.unitypackage)
+  - ​	[点此下载 unitypackage](Package/saltframework.unitypackage)
     
 
 
