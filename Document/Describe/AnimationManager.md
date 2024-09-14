@@ -41,7 +41,7 @@
 ### 示例：
 
 ```
-c#复制代码using UnityEngine;
+using UnityEngine;
 
 public class TestAnimationManager : MonoBehaviour
 {

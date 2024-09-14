@@ -18,9 +18,7 @@
 
   - **描述**: 输出普通日志，仅在 Unity 编辑器中可见。
 
-  - 参数
-
-    :
+  - 参数:
 
     - `ob` (`object[]`): 要记录的日志内容。
 
@@ -142,7 +140,7 @@
 ### 示例：
 
 ```
-c#复制代码using UnityEngine;
+using UnityEngine;
 
 public class TestLogger : MonoBehaviour
 {
