@@ -42,13 +42,11 @@
 
 - **`LoadPrefabAsync`**：异步加载指定路径的 Prefab。
 
-  - 参数
-
-    ：
+  - 参数：
 
     - `path`：Prefab 的路径。
-    - `callback`：加载完成后的回调函数。
-
+  - `callback`：加载完成后的回调函数。
+    
   - **返回**：无返回值。
 
 - **`LoadAssetBundleSync`**：同步加载指定 AssetBundle。
@@ -143,7 +141,6 @@ void Start()
     ResourceManager.Instance.UnloadAllAssetBundles(true);
 }
 ```
-
 
 
 
