@@ -93,7 +93,7 @@
 
   ​		*提供了统一的管理按键的按下、释放和触发检测功能，并实现了按键状态的缓存机制，并且包含快速接入长按*
 
-- Log模块 -  [DebugEx](Document/Describe/DebugEx.md)  
+- Log模块 -  [DebugEx](Document/Describe/DebugEX.md)  
 
   ​		*用于提供更灵活和符合直觉的日志记录方式。它扩展了 Unity 的 Debug 类，支持更清晰和结构化的日志输出，同时包含帧率检测*
 
