@@ -13,7 +13,7 @@ public static class ScenesMenuBuild
 {
     // Path on filesystem (relative to Assets directory) to write menu command scripts.
     // This can be inside any "Editor" folder.
-    static readonly string ScenesMenuPath = "Editor/ScenesMenu.cs";
+    static readonly string ScenesMenuPath = "SaltFramework/Editor/ScenesMenu.cs";
 
     [MenuItem("Scenes/Update This List")]
     public static void UpdateList()

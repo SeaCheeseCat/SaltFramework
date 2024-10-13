@@ -79,7 +79,6 @@ public class GameBase : MonoBehaviour
     /// </summary>
     public void GameEnter()
     {
-        SystemManager.Instance.CreateCameraSystem();
         DebugEX.LogFrameworkMsg("游戏初始化完成！");
     }
 

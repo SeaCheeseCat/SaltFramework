@@ -28,13 +28,6 @@ public class SystemManager : Manager<SystemManager>
         SpawnPrefab("LongPressDetectorManager");
     }
 
-    public void CreateCameraSystem()
-    {
-        var canvs = GameObject.Find("Canvas").transform;
-        var unit = SpawnPrefab("CameraSystem");
-        unit.transform.SetParent(canvs,false);
-        
-    }
 
     /// <summary>
     /// 创建长按管理

@@ -15,9 +15,6 @@ public class GameStart : MonoBehaviour
     private void Awake()
     {
         UIManager.Instance.Init();
-        SystemManager.Instance.CreateCameraSystem();
-        DebugEX.LogFrameworkMsg("¹Ø¿¨Æô¶¯Æ÷!");
-        Invoke("StartCameraControl", 0.5f);
     }
 
     private void Start()
@@ -42,8 +39,4 @@ public class GameStart : MonoBehaviour
        
     }
 
-    public void StartCameraControl()
-    {
-        
-    }
 }
