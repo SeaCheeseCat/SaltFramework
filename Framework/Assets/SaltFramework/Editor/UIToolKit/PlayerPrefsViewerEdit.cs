@@ -20,17 +20,13 @@ public class PlayerPrefsViewerEdit : EditorWindow
 
     public void OnEnable()
     {
-        PlayerPrefsManager.Instance.Add("Test","Yes");
-        PlayerPrefsManager.Instance.Add("Test2", "what");
-        PlayerPrefsManager.Instance.Add("Test3", 23);
-        PlayerPrefsManager.Instance.Add("Test4", false);
-        var visualTree = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("Assets/Editor/UIToolKit/PlayerPrefsViewerEdit.uxml");
+        var visualTree = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("Assets/SaltFramework/Editor/UIToolKit/PlayerPrefsViewerEdit.uxml");
         visualTree.CloneTree(rootVisualElement);
 
-        var styleSheet = AssetDatabase.LoadAssetAtPath<StyleSheet>("Assets/Editor/UIToolKit/PlayerPrefsViewerEdit.uss");
+        var styleSheet = AssetDatabase.LoadAssetAtPath<StyleSheet>("Assets/SaltFramework/Editor/UIToolKit/PlayerPrefsViewerEdit.uss");
         rootVisualElement.styleSheets.Add(styleSheet);
 
-        prefsTemplate = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("Assets/Editor/UIToolKit/PlayerPrefsItemEditor.uxml");
+        prefsTemplate = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("Assets/SaltFramework/Editor/UIToolKit/PlayerPrefsItemEditor.uxml");
 
         LoadPlayerPrefs();
 

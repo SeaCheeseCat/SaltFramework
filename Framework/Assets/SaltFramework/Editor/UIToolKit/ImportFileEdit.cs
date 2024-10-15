@@ -25,7 +25,7 @@ public class ImportFileEdit : EditorWindow
     public void CreateGUI()
     {
         VisualElement root = rootVisualElement;
-        var visualTree = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("Assets/Editor/UIToolKit/ImportFileEdit.uxml");
+        var visualTree = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("Assets/SaltFramework/Editor/UIToolKit/ImportFileEdit.uxml");
         VisualElement labelFromUXML = visualTree.Instantiate();
         root.Add(labelFromUXML);
         fileLabel = root.Q<Label>("FileName");
@@ -73,13 +73,13 @@ public class ImportFileEdit : EditorWindow
         var iconItem = root.Q<VisualElement>("icon");
         Texture2D texture = null;
         if (selectName == "Effect" || selectName == "Music")
-            texture = AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/Editor/UIToolKit/Icon/import2.png");
+            texture = AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/SaltFramework/Editor/UIToolKit/Icon/import2.png");
         else if (selectName == "Material")
-            texture = AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/Editor/UIToolKit/Icon/import4.png");
+            texture = AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/SaltFramework/Editor/UIToolKit/Icon/import4.png");
         else if (selectName == "Sprite")
-            texture = AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/Editor/UIToolKit/Icon/import1.png");
+            texture = AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/SaltFramework/Editor/UIToolKit/Icon/import1.png");
         else
-            texture = AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/Editor/UIToolKit/Icon/import3.png");
+            texture = AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/SaltFramework/Editor/UIToolKit/Icon/import3.png");
 
         iconItem.style.backgroundImage = texture;
 

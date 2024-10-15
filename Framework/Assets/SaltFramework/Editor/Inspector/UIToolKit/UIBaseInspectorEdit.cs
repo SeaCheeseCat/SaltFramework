@@ -20,7 +20,7 @@ public class UIBaseInspectorEdit : Editor
     public override VisualElement CreateInspectorGUI()
     {
         var root = new VisualElement();
-        var visualTree = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("Assets/Editor/Inspector/UIToolKit/UibaseTemplateKit.uxml");
+        var visualTree = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("Assets/SaltFramework/Editor/Inspector/UIToolKit/UibaseTemplateKit.uxml");
         visualTree.CloneTree(root);
         uiBaseInspector = target as UIBaseInspector;
         textfield = root.Q<TextField>("uiName");
@@ -76,12 +76,12 @@ public class UIBaseInspectorEdit : Editor
 
     public void CreateScriptFile(string newName)
     {
-        string scriptPath = "Assets/Scripts/UI/" + newName + ".cs";
+        string scriptPath = "Assets/SaltFramework/UI/" + newName + ".cs";
         uiName = newName;
         EditorPrefs.SetString("UIBaseData", uiName);
         if (!File.Exists(scriptPath))
         {
-            string templatePath = "Assets/Scripts/Framework/Common/UIBase/UIBaseTemplate.text";
+            string templatePath = "Assets/SaltFramework/UI/UIBase/UIBaseTemplate.text";
             string templateContent = File.ReadAllText(templatePath);
             templateContent = templateContent.Replace("{0}", newName);
             File.WriteAllText(scriptPath, templateContent);

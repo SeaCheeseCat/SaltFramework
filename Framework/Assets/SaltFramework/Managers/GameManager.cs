@@ -8,6 +8,9 @@ public class GameManager : SingleMono<GameManager>
 {
     public GameScreen gameScreen;
 
+    //Tip: Íæ¼Ò
+    public Player player;
+
     /// <summary>
     /// Base:Awake
     /// </summary>

@@ -113,6 +113,7 @@ public class GameBase : MonoBehaviour
         yield return LanguageManager.Instance.Init(this);
         yield return PoolManager.Instance.Init(this);
         yield return GameSetSysteam.Instance.Init(this);
+        yield return NPCManager.Instance.Init(this);
         SystemManager.Instance.CreateAudioSystem();
         SystemManager.Instance.CreateLongPressDetectorSystem();
         SystemManager.Instance.CreateInputKeySystem();
